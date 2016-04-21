@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 11, 2016 3:28:25 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.ntg.smartcompound.mai.HibernateEntity.User" table="user" catalog="springdb" optimistic-lock="version">
+        <id name="fname" type="string">
+            <column name="fname" />
+            <generator class="assigned" />
+        </id>
+        <property name="email" type="string">
+            <column name="email" />
+        </property>
+        <property name="gender" type="string">
+            <column name="gender" />
+        </property>
+        <property name="lname" type="string">
+            <column name="lname" />
+        </property>
+        <property name="passwd" type="string">
+            <column name="passwd" />
+        </property>
+    </class>
+</hibernate-mapping>
