@@ -1,4 +1,4 @@
-package com.ntg.smartcompound.mai.HibernateEntity;
+package com.ntg.smartcompound.mai.hibernateEntity;
 
 public class User  implements java.io.Serializable {
 

@@ -11,9 +11,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
-import com.ntg.smartcompound.mai.HibernateEntity.User;
 import com.ntg.smartcompound.mai.entity.Department;
 import com.ntg.smartcompound.mai.entity.Employee;
+import com.ntg.smartcompound.mai.hibernateEntity.User;
 import com.ntg.smartcompound.mai.interfaces.Controller;
 
 @Path("/info")

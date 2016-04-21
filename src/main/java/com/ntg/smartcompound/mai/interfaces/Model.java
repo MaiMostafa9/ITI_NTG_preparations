@@ -2,7 +2,7 @@ package com.ntg.smartcompound.mai.interfaces;
 
 import java.util.List;
 
-import com.ntg.smartcompound.mai.HibernateEntity.User;
+import com.ntg.smartcompound.mai.hibernateEntity.User;
 
 /**
  *
